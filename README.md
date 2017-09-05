@@ -11,7 +11,7 @@
  
  ## Solution
  MyGeoApp uses first approach i.e use the Geocoordinates to solve the problem.
- ### Challange with this solution
+ ### Challenge with this solution
   Using [Geofence](https://developer.android.com/training/location/geofencing.html) is an obvious choise  for this usecase, but the limitation with GeoFence is that it **supports only Circular region**.
   So we use Ray-Casting Algorith to check if the point is with in a polygon.
   
